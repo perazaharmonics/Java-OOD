@@ -1,2 +1,2 @@
 # jOOD
-A collection of my Assignment for Object Oriented Design Class
+A collection of my Assignments for the Object Oriented Design Class
