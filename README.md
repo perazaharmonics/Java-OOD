@@ -1,2 +1,2 @@
-# jsignal
-A collection of Fast DSP algorithms implemented in Java
+# jOOD
+A collection of my Assignment for Object Oriented Design Class
