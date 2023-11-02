@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T20:17:26.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="4C6XKy5ok16HzIrSa1iO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T20:19:32.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="m3pB_1II1JgocRx51eaZ" version="22.0.8" type="github">
   <diagram name="Page-1" id="WlGeIlo4A0PmuS_6lP26">
-    <mxGraphModel dx="618" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1492" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MxUkuPh3b3BgT4qOGyke-1" value="CalculationSingleton" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="440" height="163" as="geometry" />
+        <mxCell id="MxUkuPh3b3BgT4qOGyke-1" value="&lt;font face=&quot;Courier New&quot;&gt;CalculationSingleton&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="205" y="160" width="440" height="163" as="geometry" />
         </mxCell>
-        <mxCell id="MxUkuPh3b3BgT4qOGyke-3" value="- instance : CalculationSingleton" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
+        <mxCell id="MxUkuPh3b3BgT4qOGyke-3" value="&lt;font face=&quot;Courier New&quot;&gt;- instance : CalculationSingleton&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
           <mxGeometry y="55" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MxUkuPh3b3BgT4qOGyke-5" value="- deliveryFeeStrategy: DeliveryFeeStrategy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
+        <mxCell id="MxUkuPh3b3BgT4qOGyke-5" value="&lt;font face=&quot;Courier New&quot;&gt;- deliveryFeeStrategy: DeliveryFeeStrategy&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
           <mxGeometry y="75" width="440" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MxUkuPh3b3BgT4qOGyke-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
           <mxGeometry y="95" width="440" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="MxUkuPh3b3BgT4qOGyke-8" value="+ getInstance() : CalculationSingleton" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
+        <mxCell id="MxUkuPh3b3BgT4qOGyke-8" value="&lt;font face=&quot;Courier New&quot;&gt;+ getInstance() : CalculationSingleton&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
           <mxGeometry y="103" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MxUkuPh3b3BgT4qOGyke-11" value="+ setDeliveryFeeStrategy(strategy: DeliveryFeeStrategy)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
+        <mxCell id="MxUkuPh3b3BgT4qOGyke-11" value="&lt;font face=&quot;Courier New&quot;&gt;+ setDeliveryFeeStrategy(strategy: DeliveryFeeStrategy)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
           <mxGeometry y="123" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MxUkuPh3b3BgT4qOGyke-12" value="+ calculateTotalPrice(pizza: Pizza) : BigDecimal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
+        <mxCell id="MxUkuPh3b3BgT4qOGyke-12" value="&lt;font face=&quot;Courier New&quot;&gt;+ calculateTotalPrice(pizza: Pizza) : BigDecimal&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="MxUkuPh3b3BgT4qOGyke-1">
           <mxGeometry y="143" width="440" height="20" as="geometry" />
         </mxCell>
       </root>
